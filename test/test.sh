@@ -1,3 +1,8 @@
+
+echo "*****************************"
+echo "*    RUNNING SMOKE TESTS    *"
+echo "*****************************"
+
 docker build -t eggplanet/nuxt . && \
 cd test/dummy && \
 docker build -t docker-nuxt-test . && \
