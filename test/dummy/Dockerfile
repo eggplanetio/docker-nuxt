@@ -1,0 +1,1 @@
+FROM eggplanet/nuxt

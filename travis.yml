@@ -1,0 +1,18 @@
+sudo: required
+
+language: node_js
+node_js:
+  - "6"
+
+services:
+  - docker
+
+install:
+  - cd test/dummy && yarn && cd ..
+
+script:
+  - test/test.sh
+
+after_script:
+  - docker rm -f docker-nuxt-test
+  - docker images -q | xargs docker rmi -f
