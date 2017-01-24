@@ -8,10 +8,10 @@ services:
   - docker
 
 install:
-  - cd test/dummy && yarn && cd ..
+  - cd test/dummy && yarn && cd - # (the dash means back to previous dir)
 
 script:
-  - test/test.sh
+  - ./test/test.sh
 
 after_script:
   - docker rm -f docker-nuxt-test
