@@ -1,6 +1,6 @@
-# eggplanet/nuxt
+# [eggplanet/nuxt](https://hub.docker.com/r/eggplanet/nuxt/)
 
-The lightest nuxt container out there.
+The lightest nuxt image out there.
 
 ## Usage
 
