@@ -1,4 +1,4 @@
-# eggplanet/next
+# eggplanet/nuxt
 
 The lightest nuxt container out there.
 
