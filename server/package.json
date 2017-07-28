@@ -1,5 +1,6 @@
 {
   "name": "server",
+  "license": "mit",
   "dependencies": {
     "nuxt-cluster": "^0.0.2"
   }
