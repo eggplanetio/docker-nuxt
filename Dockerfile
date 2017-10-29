@@ -1,5 +1,6 @@
 FROM node:8-alpine
-MAINTAINER briangonzalez
+LABEL MAINTAINER="briangonzalez"
+LABEL version="1.1"
 
 # Create app directory
 RUN mkdir -p /app

@@ -1,5 +1,7 @@
 # [eggplanet/nuxt](https://hub.docker.com/r/eggplanet/nuxt/)
 
+![pull badge](https://img.shields.io/docker/pulls/eggplanet/nuxt.svg)
+
 The lightest nuxt image out there.
 
 ## Usage
@@ -12,7 +14,7 @@ FROM eggplanet/nuxt
 
 ## Customize before build
 
-If you need to customize your project before the nuxt build you can use `-- build-arg autobuild=no`. Dont forget to call nuxt build yourself:
+If you need to customize your project before the nuxt build you can use `--build-arg autobuild=no`. Dont forget to call nuxt build yourself:
 
 ```
 FROM eggplanet/nuxt
